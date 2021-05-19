@@ -2,10 +2,10 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: path.join(__dirname, "src", "index.jsx"),
-  output: { path: path.join(__dirname, "build"), filename: "index.[hash].js" },
+  entry: './src/index.jsx',
+  output: { path: path.join(__dirname, "build"), filename: "[name].[hash].js" },
   mode: process.env.NODE_ENV || "development",
-  resolve: { modules: [path.resolve(__dirname, "src"), "node_modules"] },
+  resolve: { extensions: ['.js', '.jsx'], modules: [path.resolve(__dirname, "src"), "node_modules"] },
   devServer: { contentBase: path.join(__dirname, "src") },
   devtool: 'inline-source-map',
   module: {
