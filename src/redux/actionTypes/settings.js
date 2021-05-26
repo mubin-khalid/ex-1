@@ -1,0 +1,2 @@
+const NATIONALITY = 'NATIONALITY';
+export default NATIONALITY;
