@@ -22,7 +22,7 @@ const HomeContainer = () => {
 
   useEffect(() => {
     if(!users.length && !loading && searchTerm) {
-      dispatch(fetchUsers(pageNo, nationality));
+      dispatch(fetchUsers(pageNo, nationality, 100));
     }
   }, [users, loading]);
 
