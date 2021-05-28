@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className=""
+  >
+    <div
+      className="ant-row ant-row-center ant-row-middle search"
+      style={
+        Object {
+          "marginLeft": -5,
+          "marginRight": -5,
+        }
+      }
+    >
+      <div
+        className="ant-col ant-col-12"
+        style={
+          Object {
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+      >
+        <input
+          className="ant-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

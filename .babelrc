@@ -10,7 +10,8 @@
         "libraryName": "antd",
         "libraryDirectory": "lib",
         "style": true
-      }
+      },
+      "antd"
     ]
   ]
 }

@@ -4,7 +4,7 @@ export const filterUsers = (state) => {
   if (isEmpty(state.userState.searchTerm)) {
     users = state.userState.users.slice(
       0,
-      state.userState.users.length,
+      state.userState.users.length - 50,
     );
   } else {
     let searchTerm = state.userState.searchTerm.toLowerCase()
